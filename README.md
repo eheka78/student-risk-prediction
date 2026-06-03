@@ -27,13 +27,13 @@
 
 ## 📌 프로젝트 개요
 
-| 항목           | 내용                                           |
-| -------------- | ---------------------------------------------- |
-| 🤖 알고리즘    | Decision Tree (ID3, entropy criterion)         |
-| 📂 데이터셋    | StudentPerformanceFactors_encoded.csv          |
-| 📊 데이터 크기 | 6,607개 레코드 · 9개 피처                      |
-| ⚠️ 위험군 기준 | Train set 기준 하위 23% (77th percentile 미만) |
-| 🔍 최적 Depth  | 5 (5-Fold CV · Recall 기준 탐색)               |
+| 항목           | 내용                                                     |
+| -------------- | -------------------------------------------------------- |
+| 🤖 알고리즘    | Decision Tree (ID3, entropy criterion)                   |
+| 📂 데이터셋    | StudentPerformanceFactors_encoded.csv (Kaggle 원본 파생) |
+| 📊 데이터 크기 | 6,607개 레코드 · 9개 피처                                |
+| ⚠️ 위험군 기준 | Train set 기준 하위 23% (77th percentile 미만)           |
+| 🔍 최적 Depth  | 5 (5-Fold CV · Recall 기준 탐색)                         |
 
 ---
 
@@ -48,6 +48,15 @@ student-risk-prediction/
 ---
 
 ## 🗂️ 데이터셋
+
+### 출처
+
+[![Kaggle](https://img.shields.io/badge/Kaggle-Student%20Performance%20Factors-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)
+
+원본 데이터셋: **Student Performance Factors** by [lainguyn123](https://www.kaggle.com/lainguyn123) (Kaggle)
+
+> `StudentPerformanceFactors_encoded.csv` 는 위 원본 데이터셋에서 모델 학습에 필요한 피처를 선별하고,
+> 범주형 변수를 숫자로 인코딩하여 가공한 **파생 데이터셋**입니다.
 
 ### 피처 설명
 
