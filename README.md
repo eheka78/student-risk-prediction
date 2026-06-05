@@ -258,39 +258,6 @@ VS Code 또는 Jupyter에서 `Student-Performance-Factors.ipynb` 열고 **Run Al
 
 ---
 
-### 🧪 샘플 학생 데이터 수정
-
-노트북 하단의 `sample_student` 딕셔너리를 수정하여 원하는 학생 데이터로 예측할 수 있습니다.
-
-```python
-sample_student = pd.DataFrame([{
-    "Hours_Studied": 5,        # 주간 학습 시간
-    "Attendance": 60,          # 출석률 (%)
-    "Sleep_Hours": 5,          # 하루 수면 시간
-    "Previous_Scores": 50,     # 이전 시험 점수
-    "Tutoring_Sessions": 0,    # 월간 튜터링 횟수
-
-    # 부모 참여도: Low=100, Medium=010, High=001
-    "Parental_Involvement_0": 1,
-    "Parental_Involvement_1": 0,
-    "Parental_Involvement_2": 0,
-
-    # 학습 자료 접근성: Low=100, Medium=010, High=001
-    "Access_to_Resources_0": 1,
-    "Access_to_Resources_1": 0,
-    "Access_to_Resources_2": 0,
-
-    # 학습 동기: Low=100, Medium=010, High=001
-    "Motivation_Level_0": 1,
-    "Motivation_Level_1": 0,
-    "Motivation_Level_2": 0
-}])
-```
-
-실행 결과로 **위험군 / 안전군 판정**과 함께 **위험 원인 및 개선 방향**이 출력됩니다.
-
----
-
 ## 🛠️ 기술 스택
 
 <div align="center">
